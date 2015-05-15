@@ -18,7 +18,7 @@
 </div>
   <div class="row">
     {# <div class="headband"></div> #}
-  <div class="col-xs-9">
+  <div class="col-xs-10">
     <div id="main" class="main">
       <div class="main-inner">
         <div id="content" class="content">
@@ -27,7 +27,7 @@
       </div>      
     </div>
 </div>
-<div class="col-xs-3">
+<div class="col-xs-2">
   {% block sidebar %}{% endblock %}
 
 </div>

@@ -131,7 +131,7 @@
         'transition.slideRightIn',
         {stagger: 50, drag: true}
       );
-      $('.sidebar').height(body.height());
+      $('.sidebar').height($('.main').height());
     }
 
     function postsListMotion () {
