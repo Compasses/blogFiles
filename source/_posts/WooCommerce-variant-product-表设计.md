@@ -79,7 +79,7 @@ array (size=2)
       'is_variation' => int 1
       'is_taxonomy' => int 1
 ```
-
+<!--more-->
 即可以从产品表里面获取所有的variant值，当然需要关联上述的几个表。再如SKU的id为21的post_meta数据如下：例如SKU的id为21的post_meta数据如下：
 
 | meta_id | post_id | meta_key               | meta_value |
