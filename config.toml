@@ -1,0 +1,80 @@
+baseurl = "http://www.heguangnan.com/"
+title = "三十重围"
+theme = "hugo-theme-cactus-plus"
+
+# Pagination
+paginate = 30
+paginatePath = "page"
+
+# Copyright
+copyright = "(c) 2015 Jet He."
+
+# Language
+languageCode = "en-EN"
+
+
+[params]
+	name = "Jet He"
+	description = "技术点滴"
+	bio = "技术点滴"
+	# Enter optionally your twitter account
+	twitter = "your_twotter"
+	enableRSS = false
+
+	# Disqus comment
+	disqusShortname = "compasses"
+	# Disable disqus comments by set `enableDisqus = "false"`
+	enableDisqus = true
+
+	# Duoshuo comment
+	duoshuoShortname = "your_duoshuo_short_name"
+	# Disable duoshuo comments by set `enableDuoshuo = "false"`
+	enableDuoshuo = false
+
+	enableGithubIssuesTips = false
+
+	# Use description as title in single page, posts page and tags page.
+	useDescriptionAsTitle = true
+
+	# Enable googleAnalytics
+	enableGoogleAnalytics = false
+
+	# Enable baiduAnalytics
+	enableBaiduAnalytics = true
+	# Baidu Tongji Code
+	baiduAnalytics = '<script> var _hmt = _hmt || [];(function() {var hm = document.createElement("script"); hm.src = "https://hm.baidu.com/hm.js?4a498b3d0d8c938e221ea01413a0ead3";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(hm, s);})();</script>'
+
+	# Add custom assets with their paths relative to the static folder
+	customCSS = []
+	customJS  = []
+
+	# The variables below are optionally too and can be used to
+	# translate or customize each string of the theme.
+
+	# Navigation links
+	home = ""
+	about = ""
+	archive = ""
+	subscribe = ""
+	# Pagination links
+	olderPosts = ""
+	newerPosts = ""
+	readMore = ""
+	copyright = ""
+	# Sharing options and author information in posts
+	aboutAuthor = "I am so interesting."
+	tweet = ""
+	share = ""
+	# 404 page
+	title404 = ""
+	subtitle404 = ""
+
+	# Choose a font for the social icons in the footer. Either "mono-social" or "font-awesome"
+	iconFont = "font-awesome"
+  # The social icons can be styled differently if you use mono as font - circle, rounded, or empty
+  socialIconStyle = ""
+
+
+# Add additional social link entries underneath
+[social]
+  github-square = "https://github.com/compasses"
