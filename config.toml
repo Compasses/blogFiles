@@ -42,7 +42,7 @@ languageCode = "en-EN"
 	# Enable baiduAnalytics
 	enableBaiduAnalytics = true
 	# Baidu Tongji Code
-	baiduAnalytics = '<script> var _hmt = _hmt || [];(function() {var hm = document.createElement("script"); hm.src = "https://hm.baidu.com/hm.js?4a498b3d0d8c938e221ea01413a0ead3";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(hm, s);})();</script>'
+	baiduAnalytics = '4a498b3d0d8c938e221ea01413a0ead3'
 
 	# Add custom assets with their paths relative to the static folder
 	customCSS = []
